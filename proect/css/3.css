@@ -1,0 +1,73 @@
+body{ 
+    background-color: rgba(202, 238, 243, 1); 
+} 
+.wrapper { 
+    width: 1920px; 
+    height: 2131px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0 auto; 
+    font-size: 23pt; 
+ 
+} 
+.logo{ 
+    width: 327px; 
+    height: 148px; 
+} 
+nav ul{ 
+    float: right; 
+    position: relative; 
+    bottom: 130px; 
+     
+ 
+} 
+nav li { 
+    display: inline-block; 
+ 
+    padding: 10px; 
+} 
+nav a{ 
+    text-decoration: none; 
+    color: black; 
+    padding-right: 80px; 
+} 
+.head{ 
+    width: 1834px; 
+    height: 174px; 
+    margin-left: 43px; 
+    background-color:white; 
+} 
+.shema{
+    border: 1px solid black;
+    width: 1660px;
+    height: 911px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 250px;
+
+
+}
+.shema p{
+    text-align: center;
+}
+button{ 
+ 
+    width: 160px; 
+    height: 54px; 
+    border-radius: 10px; 
+    background-color: rgba(158, 197, 209, 1); 
+    margin-top: 200px;
+} 
+footer{ 
+    width: 1920px; 
+    height: 261px; 
+    margin: none; 
+    background-color:rgba(158, 197, 209, 1) ; 
+    padding: 40px; 
+    margin-top: 200px;
+} 
+.menu{ 
+    position: relative; 
+    text-decoration: none; 
+    color: black; 
+    margin-top: 120px; 
+}

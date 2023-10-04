@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/4.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head"> 
+            <header> 
+                <img class="logo" src="img/logo.jpg" alt=""> 
+                <nav> 
+    
+                    <ul> 
+                        <li><a href="">Акции</a></li> 
+                        <li><a href="">Поиск</a></li> 
+                        <li><a href="">Управление бронированием</a></li> 
+                    </ul> 
+                </nav> 
+            </header> 
+            
+        </div> 
+        <h3>Бронирование</h3>
+        <div class="bronirovanie">
+            <textarea name="Регион" id="1" placeholder="регион" cols="70" rows="5">Алтайский край</textarea> <br><br>
+            <textarea name="Адрес" id="2" placeholder="адрес" cols="70" rows="5">Туристическая база "Озеро Красилово", Косихинский район, с. Озеро-Красилово, ул. Пушкина д.1</textarea> <br><br>
+            <textarea name="Дата" id="3" placeholder="дата" cols="70" rows="5">12.10.2023</textarea> <br><br>
+            <textarea name="Количество человек" id="4" placeholder="количество человек" cols="70" rows="5">5</textarea> <br><br>
+            <p>Цена: 3000р.</p>
+            <p>Выбор доп.услуг:</p>
+            <select id="service" multiple>
+                <option value="pitanie">Организация питания</option>
+                <option value="animator">Услуги аниматоров</option>
+                <option value="vedyshie">Услуги ведущего</option>
+                <option value="taksi">Услуги детского такси</option>
+            </select>
+            <p>Комментарий к заказу:</p>
+            <textarea name="Напишите отзыв" id="5" placeholder="Напишите отзыв" cols="100" rows="10"></textarea> <br><br>
+            <textarea name="email" id="6" type="email" placeholder="email" cols="70" rows="5">12345@gmail.com</textarea> <br><br>
+            <p><b>Итого:</b> 3000р.</p>
+            <button>Забронировать</button>
+        </div>
+        <footer>
+            <p>Телефон “8 (800) 111-20-20”</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Singn up</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Return</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

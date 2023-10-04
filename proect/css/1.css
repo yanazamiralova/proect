@@ -1,0 +1,131 @@
+body{
+    background-color: rgba(202, 238, 243, 1);
+}
+.wrapper {
+    width: 1920px;
+    height: 7679px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 23pt;
+
+}
+.logo{
+    width: 327px;
+    height: 148px;
+}
+nav ul{
+    float: right;
+    position: relative;
+    bottom: 130px;
+    
+
+}
+nav li {
+    display: inline-block;
+
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 80px;
+}
+.head{
+    width: 1834px;
+    height: 174px;
+    margin-left: 43px;
+    background-color:white;
+}
+.algoretm{
+    background-color: white;
+    border-radius: 20px;
+    width: 1660px;
+    height: 517px;
+    margin-bottom: 330px;
+
+
+}
+.banner{
+    width: 1660px;
+    height: 1074px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 380px;
+}
+.cel{
+    margin-bottom: 200px;
+}
+.devs{
+    margin-bottom: 200px;
+}
+
+button{
+    float: right;
+    width: 260px;
+    height: 69px;
+    border-radius: 10px;
+    background-color: rgba(158, 197, 209, 1);
+
+}
+textarea{
+    border-radius: 30px;
+    padding: 10px;
+
+
+}
+.forma{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 380px;
+    
+}
+.akzii{
+    margin-top: 420px;
+}
+.akzii h3{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.fotoshater{
+    width: 1003px;
+    height: 740px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.shater{
+    background-color: white;
+    width: 700px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#email{
+    width: 500px;
+    height: 100px;
+}
+.knopka{
+    float: right;
+}
+.podpiska{
+    margin-top: 390px;
+    margin-bottom: 500px;
+}
+.podpiska p{
+    text-align: center;
+}
+footer{
+    width: 1920px;
+    height: 261px;
+    margin: none;
+    background-color:rgba(158, 197, 209, 1) ;
+    padding: 40px;
+}
+.menu{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-top: 120px;
+}
